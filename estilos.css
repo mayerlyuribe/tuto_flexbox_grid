@@ -222,3 +222,20 @@
 .testimonial h3{
   text-align: center;
 }
+/* Crear un grid de tres columnas equidistantes. Definir un espaciado de 40px entre ellas */
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  
+  
+  /* Crear una tarjeta en blanco con sombreado alrededor */
+  .card {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
+                 7px  7px 20px rgba(0, 0, 0, 0.2)
+  }
