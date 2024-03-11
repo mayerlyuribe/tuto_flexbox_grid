@@ -206,4 +206,19 @@
   .stats .fa {
     color: rgb(128, 0, 0);
   }
-  
+  .testimonial {
+    color: black;
+    padding: 40px;
+  }
+  /* Envuelve la imagen dentro de una figura circular y define su altura para que tome todo el alto de su elemento padre */
+
+.testimonial img {
+    height: 100%;
+    clip-path: circle();
+}
+
+/* Alinea el texto al centro */
+
+.testimonial h3{
+  text-align: center;
+}
