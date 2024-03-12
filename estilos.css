@@ -264,3 +264,8 @@ footer a {
   color: white;
   margin: 0 10px;
 }
+footer a:hover {
+  color: #ffffff42;
+  border-bottom: 2px solid #ffffff;
+}
+
