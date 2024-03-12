@@ -239,3 +239,15 @@
     box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
                  7px  7px 20px rgba(0, 0, 0, 0.2)
   }
+  .circle {
+    background-color: transparent;
+    border:3px solid rgb(0, 0, 0);
+    height:90px;
+    position: relative;
+    top: -30px;
+    left: 120px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:90px;
+}
