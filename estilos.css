@@ -251,3 +251,16 @@
     -webkit-border-radius:50%;
     width:90px;
 }
+/* Add padding around the footer as well */
+
+footer {
+  background-color: #912B2B;
+  padding: 20px 10px;
+}
+
+/* Sets all link texts to white and puts margin to the left and right */
+
+footer a {
+  color: white;
+  margin: 0 10px;
+}
